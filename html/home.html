@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link href="/css/bootstrap.min.css">
+    <title>MasloTom</title>
+  </head>
+
+  <body>
+    <header>
+      <section class="main-wrapper">
+        <div class="container-wrapper">
+          <div class="header-wrapper fadeIn">
+            <div class="container header-container">
+              <div class="row">
+                <div class="col-sm-2">
+                  <a href="/" aria-current="page" class="nuxt-link-exact-active nuxt-link-active">
+                    <img src="/image/logo_tom_new.svg" alt="" class="header-logo" />
+                  </a>
+                </div>
+                <div class="d-menu">
+                  <div class="menu-wrapper">
+                    <ul class="menu-list list-unstyled d-flex justify-content-end align-items-center">
+                      <li class="menu-item animated fadeIn"> <a class="menu-link">Пасти том</a> <svg width="25" height="25" class="menu-arrow"> <use href="/image/icons.svg#icon-arrow"></use> </svg></li>
+                      <li class="menu-item animated fadeIn"> <a class="menu-link">caramel & more</a> <svg width="25" height="25" class="menu-arrow"> <use href="/image/icons.svg#icon-arrow"></use> </svg> </li>
+                      <li class="menu-item animated fadeIn"> <a class="menu-link">десерти</a> <svg width="25" height="25" class="menu-arrow"> <use href="/image/icons.svg#icon-arrow"></use> </svg> </li>
+                      <li class="menu-item animated fadeIn"> <a class="menu-link">рецепти</a> </li>
+                      <li class="menu-item animated fadeIn menu-item_search">
+                        <form action="/search" method="GET" id="form-search" autocomplete="off" class="header_search"><!----> 
+                            <input data-v-45604a19="" id="search" name="search" type="text" placeholder="пошук"> 
+                              <svg width="25" height="25"> <use href="/image/icons.svg#icon-search"></use> </svg>
+                            </form></li>
+                      <li class="burger-list-item">
+                        <div data-v-45604a19="" class="burger">
+                          <svg data-v-45604a19="" width="53" height="53" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" class="of-visible" >
+                            <path data-v-45604a19="" fill-rule="evenodd" clip-rule="evenodd" d="M3.2093 11H39.7151C40.3953 11 41 10.4324 41 9.62162V9.37838C41 8.64865 40.4709 8 39.7151 8H3.2093C2.52907 8 2 8.56757 2 9.37838V9.62162C2 10.4324 2.52907 11 3.2093 11Z" fill="white" class="burder-line top-burger-line transition" ></path>
+                            <path data-v-45604a19="" fill-rule="evenodd" clip-rule="evenodd" d="M9.18019 26.9413C13.8835 26.4594 13.2766 22.7644 18.4351 23.407C23.1385 23.9693 36.0347 25.2545 39.6001 25.2545C42.4828 25.2545 43.9241 24.0496 44 22.3628C44 20.435 42.1035 19.3104 39.6001 19.2301C36.945 19.1498 21.0144 20.8366 17.6765 20.6759C14.718 20.5153 13.0491 17.7039 9.55949 17.1416C4.09756 16.258 0.0769774 19.712 0.00111723 21.8808C-0.0747429 23.889 3.71826 27.5036 9.18019 26.9413Z" fill="white" class="burger-spoon left-spoon transition" ></path>
+                            <path data-v-45604a19="" fill-rule="evenodd" clip-rule="evenodd" d="M34.8198 17.0587C30.1165 17.5406 30.7234 21.2356 25.5649 20.593C20.8615 20.0307 7.96531 18.7455 4.39989 18.7455C1.5172 18.7455 0.0758601 19.9504 0 21.6372C0 23.565 1.8965 24.6896 4.39989 24.7699C7.05499 24.8502 22.9856 23.1634 26.3235 23.3241C29.282 23.4847 30.9509 26.2961 34.4405 26.8584C39.9024 27.742 43.923 24.288 43.9989 22.1192C44.0747 20.111 40.2817 16.4964 34.8198 17.0587Z" fill="white" class="burger-spoon right-spoon transition" ></path>
+                            <path data-v-45604a19="" fill-rule="evenodd" clip-rule="evenodd" d="M39.793 33.225H3.2824C2.60348 33.225 2 33.7776 2 34.5671V34.8829C2 35.5934 2.52805 36.225 3.2824 36.225H39.7176C40.3965 36.225 41 35.6724 41 34.8829V34.5671C41 33.7776 40.472 33.225 39.793 33.225Z" fill="white" class="burder-line bottom-burger-line transition" ></path>
+                          </svg>
+                        </div>
+                      </li>
+                      <!--
+                      <li class="menu-additional-item"> <a class="menu__link">Про нас</a> </li>
+                      <li class="menu-additional-item"> <a class="menu__link">FAQ</a> </li>
+                      <li class="menu-additional-item"> <a class="menu__link">Відгуки</a> </li>
+                      <li class="menu-additional-item"> <a class="menu__link">Співпраця</a> </li>
+                      <li class="menu-additional-item"> <a class="menu__link">Контакти</a> </li>
+                      -->
+                    </ul>
+                    <divdata-v-45604a19="" class="burger-bg-menu transition"></div>
+                    <div class="menu"></div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div>
+            <div role="region" id="carousel-main" aria-busy="true" class="carousel slide">
+              <div id="carousel-main__BV_inner_" role="list" class="carousel-inner">
+                <div role="listitem" class="carousel-item" aria-current="false" aria-posinset="1" aria-setsize="6" id="__BVID__246" aria-hidden="true">
+                  <a href="/pasy-tom" class="menu-link white-link">
+                    <img src="https://maslotom.com/image/catalog/banera/12.23/banner_desk_early6_eng-1.png" alt="" class="d-block img-fluid w-100">
+                  </a>
+                </div>
+                <div role="listitem" class="carousel-item" aria-current="false" aria-posinset="1" aria-setsize="6" id="__BVID__248" aria-hidden="true">
+                  <a href="/dessert">
+                    <img src="https://maslotom.com/image/catalog/banera/12.23/banner_desk_early6_-20-ukr.png" alt="" class="d-block img-fluid w-100">
+                  </a>
+                </div>
+                <div role="listitem" class="carousel-item" aria-current="false" aria-posinset="1" aria-setsize="6" id="__BVID__250" aria-hidden="true">
+                  <a href="/dips" class="menu-link white-link">
+                    <img src="https://maslotom.com/image/catalog/banera/10.23/banner_dip_ukr_eng.jpg" alt="тлоівралоі" class="d-block img-fluid w-100">
+                  </a>
+                </div>
+                <div role="listitem" class="carousel-item" aria-current="false" aria-posinset="1" aria-setsize="6" id="__BVID__252" aria-hidden="true">
+                  <a href="/caramel" class="menu-link white-link">
+                    <img src="https://maslotom.com/image/catalog/banera/09.23/cocos_vegan.jpg" alt="" class="d-block img-fluid w-100">
+                  </a>
+                </div>
+                <div role="listitem" class="carousel-item" aria-current="false" aria-posinset="1" aria-setsize="6" id="__BVID__254" aria-hidden="true">
+                  <a href="/reuse" class="menu-link white-link">
+                    <img src="https://maslotom.com/image/catalog/banera/09.23/banner_reuse.jpg" alt="" class="d-block img-fluid w-100">
+                  </a>
+                </div>
+                <div role="listitem" class="carousel-item" aria-current="false" aria-posinset="1" aria-setsize="6" id="__BVID__256" aria-hidden="true">
+                  <a href="/pasty-tom" class="menu-link white-link">
+                    <img src="https://maslotom.com/image/catalog/banera/banner_vidguk_desk.jpg" alt="" class="d-block img-fluid w-100">
+                  </a>
+                </div>
+              </div>
+              <a href="#" role="button" aria-controls="carousel-main___BV_inner_" class="carousel-control-prev" onclick="changeSlide(-1)"><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="sr-only"><svg width="52px" height="52px"> <use href="/image/icons.svg#icon-carousel_left"></use> </svg></span></a>
+              <a href="#" role="button" aria-controls="carousel-main___BV_inner_" class="carousel-control-next" onclick="changeSlide(1)"><span aria-hidden="true" class="carousel-control-next-icon"></span><span class="sr-only"><svg width="52px" height="52px"> <use href="/image/icons.svg#icon-carousel_right"></use> </svg></span></a>
+              <ol id="carousel-main___BV_indicators_" aria-hidden="false" aria-label="Select a slide to display" aria-owns="carousel-main___BV_inner_" class="carousel-indicators">
+                <li role="button" id="carousel-main___BV_indicator_1_" tabindex="0" aria-current="false" aria-label="Goto slide 1" aria-controls="carousel-main___BV_inner_" class="" aria-describedby="__BVID__246" onclick="showSlide(0)"></li>
+                <li role="button" id="carousel-main___BV_indicator_2_" tabindex="0" aria-current="true" aria-label="Goto slide 2" aria-controls="carousel-main___BV_inner_" class="active" aria-describedby="__BVID__248" onclick="showSlide(1)"></li>
+                <li role="button" id="carousel-main___BV_indicator_3_" tabindex="0" aria-current="false" aria-label="Goto slide 3" aria-controls="carousel-main___BV_inner_" class="" aria-describedby="__BVID__250" onclick="showSlide(2)"></li>
+                <li role="button" id="carousel-main___BV_indicator_4_" tabindex="0" aria-current="false" aria-label="Goto slide 4" aria-controls="carousel-main___BV_inner_" class="" aria-describedby="__BVID__252" onclick="showSlide(3)"></li>
+                <li role="button" id="carousel-main___BV_indicator_5_" tabindex="0" aria-current="false" aria-label="Goto slide 5" aria-controls="carousel-main___BV_inner_" class="" aria-describedby="__BVID__254" onclick="showSlide(4)"></li>
+                <li role="button" id="carousel-main___BV_indicator_6_" tabindex="0" aria-current="false" aria-label="Goto slide 6" aria-controls="carousel-main___BV_inner_" class="" aria-describedby="__BVID__256" onclick="showSlide(5)"></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <script src="/js/slaider.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js" type="application/javascript"></script>
+  </body>
+</html>
